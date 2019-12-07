@@ -1,0 +1,135 @@
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: "Century Gothic",Verdana,sans-serif;
+    color: #000000;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:1000px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #000080;
+    text-align: center;
+  }  
+  h1,h2,h3 {
+    font-family: Rockwell,"Times New Roman",serif;
+    margin-left:1em;
+  } 
+  p{   
+    margin-left: 1em;
+  }
+a {
+  color:#000080;
+}
+ul{
+  list-style-type: none;
+}
+/*skipnav is the id attribute on the div element we used for the
+skip to main content link
+*/
+#skipnav{
+  top:5px;
+  left:5px;
+  position: absolute;
+  background-color:white;
+}
+#skipnav a{
+color:black;
+}
+/*info is the class we used to style the div elements surrounding
+our name and contact info and the course name and school
+*/
+.info{
+width: 40%;
+font-size: 1em;
+float: left;
+margin-left: 10%;
+} 
+/* banner is the id on the div surrounding the h1 header and the
+navigation menu */
+#banner {
+background-color: #EBF5FF; 
+border-bottom: solid;
+border-top:solid;
+}
+/*border is the id on the div surrounding the entire body of the 
+document */
+#border{
+border-style: solid;
+}
+/*css for the table in accessibility.html */
+table{
+  border:solid;
+  margin:5%;
+  margin-bottom: 20%;
+}
+caption {
+  font-size:2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th{
+  padding:.5em;
+  text-align: left;
+}
+td{
+  padding:.5em;
+  padding-right: 5em;     
+}
+/*this is the css used to create the navigation menu */
+nav{
+  clear:left;
+  padding:2em;
+}
+nav ul li {
+  float: left;
+  margin-right: 0.5em;
+}
+nav ul li a {
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  background-color: #EBF5FF; /* pale bluish white */
+  color: #4312AE; /* dark blue */
+  border: 2px solid black;
+  border-top-left-radius: 1em 1em; /* rounded corner! */
+  border-top-right-radius: 1em 1em; /* another rounded corner! */
+}
+nav ul li a:hover, nav ul li a:focus {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+/*style for javascript.html and jsFundamentals.html*/
+li.jsList
+{
+    margin: 5;
+}
+button.jsFun
+{
+    appearance: none;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*jsDom.html style*/
+table#bankTable
+{
+  margin: 0 auto;
+}
+table#bankTable caption
+{
+  font-size: 1.5em;
+}
+h2#jsDom
+{
+  text-align: center;
+  margin-bottom: 5%;
+}
+button.bankAction
+{
+  margin-left: 35%;
+  margin-top: 2%;
+}
