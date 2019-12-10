@@ -170,20 +170,19 @@ li.jsList
 }
 
 #pic4{
-    align-content: left;
+    align-content: right;
     width: 400px;
     height: 600px;
-    position: relative;
-    top: -1175px;
-    left: 100;
+    position: fixed;
+    bottom: 25;
+    right: 0;
     
 }
 #pla2{
     align-content: left;
     width: 400px;
     height: 600px;
-    position: relative;
-    top: -1175px;
-    left: 1000;
+    position: fixed;
+    bottom: 25;
     
 }
