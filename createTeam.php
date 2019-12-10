@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header1.php'; ?>
 <form method = "post" enctype = "multipart/form-data" action = "processTeam.php">
     <body>
         <h3>Add Player Details</h3>
@@ -20,6 +20,9 @@
         <p>Player 5's Name:<br>
             <input type = "text" name = "player5">
         </p>
-        <input type = "submit">
+        <p><input type = "submit"></p>
+        <img src = "images/pic2.jpg" id = "pic2">
+        <img src = "images/pic3.jpg" id = "pic3">
+
     </body>
 </form>

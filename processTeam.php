@@ -10,13 +10,11 @@
         $player4 = $_POST["player4"];
         $player5 = $_POST["player5"];
         $endOfLine = $_POST["player5"];
-
         $file = "data/teams.txt";
         if(!is_file($file))
         {
             file_put_contents($file, "");
         }
-
         $current = file_get_contents($file);
         $current .= "$team_name,$player1,$player2,$player3,$player4,$player5,$endOfLine\n";
         
@@ -27,6 +25,6 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <a href="viewTeams.php">Click here to view your team!</a></p>
+    <p><a href="viewTeams.php">Click here to view your team!</a></p>
   </body>
 </html>
