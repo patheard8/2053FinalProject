@@ -1,7 +1,7 @@
 <html>
 <head>
 <!-- make sure this points to your style sheet, which may be different from mine -->
-    <link type="text/css" rel="stylesheet" href="styles/mystyle.css" media="screen">
+    <link type="text/css" rel="stylesheet" href="mystyle.css" media="screen">
    
     <title>
         Javascript
@@ -11,8 +11,7 @@
 <body>
     <div id="border">
         <div id="banner">
-            <h1> Home </h1>
-            <h2>Project 3: Football Team Builder</h2>
+            <h1> Project 3: Football Team Builder </h1>
             <nav>
                 <ul>
                   <li><a href="index.html">Home</a></li>
